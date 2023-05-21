@@ -1,0 +1,24 @@
+{
+  "name": "@maxfeige/webgpu-conway",
+  "version": "1.0.0",
+  "description": "webgpu conways game of life in typescript",
+  "main": "dist/main.js",
+  "devDependencies": {
+    "@types/webpack-env": "^1.18.0",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Max Feige",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.2.1",
+    "@webgpu/types": "^0.1.32",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4"
+  }
+}
